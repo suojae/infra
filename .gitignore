@@ -1,0 +1,46 @@
+# Terraform State Files
+*.tfstate
+*.tfstate.*
+
+# Crash Logs
+crash.log
+
+# Backup Files
+*.backup
+
+# Terraform Provider Plugins
+.terraform/
+
+# Terraform Variable Files
+*.tfvars
+*.tfvars.json
+
+# Override Files (optional configurations)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# .terraform.lock.hcl should be committed, but you may choose to ignore it in special cases
+# Uncomment the line below to ignore:
+#.terraform.lock.hcl
+
+# Ignore sensitive files
+*.pem
+*.key
+*.crt
+
+# IDE and Editor specific files
+.idea/
+.vscode/
+*.swp
+*~
+
+# MacOS specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Node and other potential generated files
+node_modules/
