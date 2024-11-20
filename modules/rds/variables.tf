@@ -51,10 +51,10 @@ variable "vpc_id" {
 
 variable "subnets" {
   description = "List of subnet IDs for RDS"
-  type        = list(string)
+  type = list(string)
 }
 
 variable "allowed_security_groups" {
   description = "Security groups allowed to access RDS"
-  type        = list(string)
+  type = list(string)
 }

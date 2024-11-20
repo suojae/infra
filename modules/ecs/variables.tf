@@ -37,7 +37,7 @@ variable "desired_count" {
 
 variable "subnets" {
   description = "List of subnet IDs for ECS tasks"
-  type        = list(string)
+  type = list(string)
 }
 
 variable "vpc_id" {

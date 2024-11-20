@@ -5,7 +5,7 @@ variable "name" {
 
 variable "subnets" {
   description = "서브넷 ID 리스트"
-  type        = list(string)
+  type = list(string)
 }
 
 variable "security_group_id" {
@@ -30,5 +30,5 @@ variable "vpc_id" {
 
 variable "tags" {
   description = "태그 맵"
-  type        = map(string)
+  type = map(string)
 }

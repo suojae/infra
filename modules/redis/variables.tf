@@ -20,10 +20,10 @@ variable "vpc_id" {
 
 variable "subnets" {
   description = "List of subnet IDs for Redis"
-  type        = list(string)
+  type = list(string)
 }
 
 variable "allowed_security_groups" {
   description = "Security groups allowed to access Redis"
-  type        = list(string)
+  type = list(string)
 }

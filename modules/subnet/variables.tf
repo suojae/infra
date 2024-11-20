@@ -20,5 +20,5 @@ variable "map_public_ip_on_launch" {
 
 variable "tags" {
   description = "A map of tags"
-  type        = map(string)
+  type = map(string)
 }

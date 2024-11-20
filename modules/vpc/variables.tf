@@ -5,5 +5,5 @@ variable "cidr_block" {
 
 variable "tags" {
   description = "태그 맵"
-  type        = map(string)
+  type = map(string)
 }
