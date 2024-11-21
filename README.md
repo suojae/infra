@@ -2,6 +2,8 @@
 
 ### Rubbit infra(AWS) architecture by terraform
 
-<img width="759" alt="image" src="https://github.com/user-attachments/assets/7432d5bc-6786-4dbb-b2e3-caa17c584964">
+<br/>
+
+<img src="https://github.com/user-attachments/assets/45dd7758-1c09-49c0-84c8-94c00e7f8e65" width="600">
 
 <br/>
